@@ -13,10 +13,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media only screen and (min-width: 430px) {
+    flex-direction: row;
+    font-size: 30px;
+  }
 }
+
+/*.imagen_avatar{
+  
+}*/
 
 picture img {
   border-radius: 50%;
+  width: 350px;
+  height: 350px;
+}
+
+span {
+  font-weight: bold;
 }
 
 p {
