@@ -7,13 +7,18 @@
 /* *********************************** */
 
 /* Tipografía */
-@font-face {
-  font-family: "";
-  src: url("") format("woff2"), url("") format("woff");
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-/* ******************************** */
+picture img {
+  border-radius: 50%;
+}
 
-/* Colores */
-
-/* ******************************** */
+p {
+  font-family: "Inter", sans-serif;
+}
